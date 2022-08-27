@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__flex">
+                <a class="header__link" href="./index.html">
+                    <img class="header__logo" src="./img/logo-payap.svg" alt="logo-payap">
+                </a>
+                <nav class="nav">
+                    <ul class="nav__ul">
+                        <li class="nav__ul-li">
+                            <a class="nav__link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav__ul-li">
+                            <a class="nav__link" href="#">About</a>
+                        </li>
+                        <li class="nav__ul-li">
+                            <a class="nav__link" href="#">Contact</a>
+                        </li>
+                        <li class="nav__ul-li nav__ul-li-demo">
+                            <a class="nav__link nav__link-demo" href="#">Schedule a Demo</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__flex">
+                    <div class="hero__info">
+                        <h2 class="hero__info-h2">Start building with our APIs for absolutely free.</h2>
+                        <input class="hero__info-email" type="email" placeholder="Eneter email address" name="email" >
+                        <a class="hero__imfo-link" href="#">Schedule a Demo</a>
+                        <p class="hero__info-p">Have any questions? <b>Contact Us</b></p>
+                    </div>
+                    <picture class="hero__picture">
+                        <source 
+                        type="image/avif"
+                        media="(max-width: 425px)"
+                        srcset="
+                            ./avif/iphonetel@1x.avif 1x,
+                            ./avif/iphonetel@2x.avif 2x"
+                        >
+    
+                        <source
+                        type="image/avif"
+                        media="(max-width: 768px)"
+                        srcset="
+                            ./avif/iphonetab@1x.avif 1x,
+                            ./avif/iphonetab@2x.avif 2x"
+                        >
+    
+                        <source
+                        type="image/avif"
+                        srcset="
+                            ./avif/iphone@1x.avif 1x,
+                            ./avif/iphone@2x.avif 2x"
+                        alt=""/>
+                        
+                        <!-- webp format -->
+                        <source 
+                        type="image/webp"
+                        media="(max-width: 425px)"
+                        srcset="
+                            ./webp/iphonetel@1x.webp 1x,
+                            ./webp/iphonetel@2x.webp 2x"
+                        >
+    
+                        <source
+                        type="image/webp"
+                        media="(max-width: 768px)"
+                        srcset="
+                            ./webp/iphonetab@1x.webp 1x,
+                            ./webp/iphonetab@2x.webp 2x"
+                        >
+    
+                        <source
+                        type="image/webp"
+                        srcset="
+                            ./webp/iphone@1x.webp 1x,
+                            ./webp/iphone@2x.webp 2x"
+                        alt=""/>
+                        <!-- png-format     -->
+                    
+                        <source 
+                        media="(max-width: 425px)"
+                        srcset="
+                            ./img/iphonetel@1x.png 1x,
+                            ./img/iphonetel@2x.png 2x"
+                        >
+    
+                        <source
+                        media="(max-width: 768px)"
+                        srcset="
+                            ./img/iphonetab@1x.png 1x,
+                            ./img/iphonetab@2x.png 2x"
+                        >
+    
+                        <img
+                        class="hero__img"
+                         src="./img/iphone.png" 
+                         srcset="
+                            ./img/iphone@1x.png 1x,
+                            ./img/iphone@2x.png 2x"
+                         alt=""
+                         width="263" height="500">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="home">
+            <div class="container">
+                <div class="home__flex">
+                    <div class="home__info">
+                        <h3 class="home__info-h3">Who we work with</h3>
+                        <p class="home__info-p">Today, millions of people around the world have successfully connected their accounts to apps they love using our API. We provide developers with the tools they need to create easy and accessible experiences for their users. </p>
+                        <a class="home__link" href="#">About Us</a>
+                    </div>
+                    <ul class="home__ul">
+                        <li class="home__ul-li">
+                            <img class="home__img" src="./img/tesla.svg" alt="tesla" width="110"  height="20">
+                            <img class="home__img" src="./img/microsoft.svg" alt="microsoft" width="110"  height="20">
+                            <img class="home__img" src="./img/hewlet.svg" alt="hewlet" width="110"  height="20">
+                        </li>
+                        <li class="home__ul-li">
+                            <img class="home__img" src="./img/orance.svg" alt="orance" width="110"  height="20">
+                            <img class="home__img" src="./img/google.svg" alt="google" width="110"  height="20">
+                            <img class="home__img" src="./img/nvidia.svg" alt="nvidia" width="110"  height="20">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="easy">
+            <div class="container">
+                <div class="easy__flex">
+                    <picture class="easy__picrure-code">
+                        <source 
+                        type="image/avif"
+                        media="(max-width: 425px)"
+                        srcset="
+                            ./avif/codetel@1x.avif 1x,
+                            ./avif/codetel@2x.avif 2x"
+                        >
+    
+                        <source
+                        type="image/avif"
+                        media="(max-width: 768px)"
+                        srcset="
+                            ./avif/codetab@1x.avif 1x,
+                            ./avif/codetab@2x.avif 2x"
+                        >
+    
+                        <source
+                        type="image/avif"
+                        srcset="
+                            ./avif/code@1x.avif 1x,
+                            ./avif/code@2x.avif 2x"
+                        alt=""/>
+                        
+                        <!-- webp format -->
+                        <source 
+                        type="image/webp"
+                        media="(max-width: 425px)"
+                        srcset="
+                            ./webp/codetel@1x.webp 1x,
+                            ./webp/codetel@2x.webp 2x"
+                        >
+    
+                        <source
+                        type="image/webp"
+                        media="(max-width: 768px)"
+                        srcset="
+                            ./webp/codetab@1x.webp 1x,
+                            ./webp/codetab@2x.webp 2x"
+                        >
+    
+                        <source
+                        type="image/webp"
+                        srcset="
+                            ./webp/code@1x.webp 1x,
+                            ./webp/code@2x.webp 2x"
+                        alt=""/>
+                        <!-- png-format     -->
+                    
+                        <source 
+                        media="(max-width: 425px)"
+                        srcset="
+                            ./img/codetel@1x.png 1x,
+                            ./img/codetel@2x.png 2x"
+                        >
+    
+                        <source
+                        media="(max-width: 768px)"
+                        srcset="
+                            ./img/codetab@1x.png 1x,
+                            ./img/codetab@2x.png 2x"
+                        >
+    
+                        <img
+                        class="easy__img-code"
+                         src="./img/code.png" 
+                         srcset="
+                            ./img/code@1x.png 1x,
+                            ./img/code@2x.png 2x"
+                         alt=""
+                         width="645" height="484">
+                    </picture>
+                    <div class="easy__info">
+                        <h4 class="easy__info-h4">Easy to implement</h4>
+                        <p class="easy__info-p">Our API comes with just a few lines of code. Yo'll be up and running in no time. We built our documentation page to integrate payments functionality with ease.</p>
+                    </div>
+                </div>
+                <div class="easy__flex-2">
+                    <div class="easy__info-2">
+                        <h4 class="easy__info-2-h4">Simple UI & UX</h4>
+                        <p class="easy__info-2-p">Our pre-built form is easy to integrate in your app or website's checkout flow and designed to optimize conversion. </p>
+                    </div>
+                    <div class="easy__img-flex">
+                        <picture class="easy__picrure-1">
+                            <source 
+                            type="image/avif"
+                            media="(max-width: 425px)"
+                            srcset="
+                                ./avif/iphonextel@1x.avif 1x,
+                                ./avif/iphonextel@2x.avif 2x"
+                            >
+        
+                            <source
+                            type="image/avif"
+                            media="(max-width: 768px)"
+                            srcset="
+                                ./avif/iphonextab@1x.avif 1x,
+                                ./avif/iphonextab@2x.avif 2x"
+                            >
+        
+                            <source
+                            type="image/avif"
+                            srcset="
+                                ./avif/iphonex@1x.avif 1x,
+                                ./avif/iphonex@2x.avif 2x"
+                            alt=""/>
+                            
+                            <!-- webp format -->
+                            <source 
+                            type="image/webp"
+                            media="(max-width: 425px)"
+                            srcset="
+                                ./webp/iphonextel@1x.webp 1x,
+                                ./webp/iphonextel@2x.webp 2x"
+                            >
+        
+                            <source
+                            type="image/webp"
+                            media="(max-width: 768px)"
+                            srcset="
+                                ./webp/iphonextab@1x.webp 1x,
+                                ./webp/iphonextab@2x.webp 2x"
+                            >
+        
+                            <source
+                            type="image/webp"
+                            srcset="
+                                ./webp/iphonex@1x.webp 1x,
+                                ./webp/iphonex@2x.webp 2x"
+                            alt=""/>
+                            <!-- png-format     -->
+                        
+                            <source 
+                            media="(max-width: 425px)"
+                            srcset="
+                                ./img/iphonextel@1x.png 1x,
+                                ./img/iphonextel@2x.png 2x"
+                            >
+        
+                            <source
+                            media="(max-width: 768px)"
+                            srcset="
+                                ./img/iphonextab@1x.png 1x,
+                                ./img/iphonextab@2x.png 2x"
+                            >
+        
+                            <img
+                            class="easy__img-1"
+                             src="./img/iphone.png" 
+                             srcset="
+                                ./img/iphonex@1x.png 1x,
+                                ./img/iphonex@2x.png 2x"
+                             alt=""
+                             width="263" height="500">
+                        </picture>
+                        <picture class="easy__picrure-2">
+                            <source 
+                            type="image/avif"
+                            media="(max-width: 425px)"
+                            srcset="
+                                ./avif/iphonestel@1x.avif 1x,
+                                ./avif/iphonerel@2x.avif 2x"
+                            >
+        
+                            <source
+                            type="image/avif"
+                            media="(max-width: 768px)"
+                            srcset="
+                                ./avif/iphonestab@1x.avif 1x,
+                                ./avif/iphonestab@2x.avif 2x"
+                            >
+        
+                            <source
+                            type="image/avif"
+                            srcset="
+                                ./avif/iphones@1x.avif 1x,
+                                ./avif/iphones@2x.avif 2x"
+                            alt=""/>
+                            
+                            <!-- webp format -->
+                            <source 
+                            type="image/webp"
+                            media="(max-width: 425px)"
+                            srcset="
+                                ./webp/iphonestel@1x.webp 1x,
+                                ./webp/iphonestel@2x.webp 2x"
+                            >
+        
+                            <source
+                            type="image/webp"
+                            media="(max-width: 768px)"
+                            srcset="
+                                ./webp/iphonestab@1x.webp 1x,
+                                ./webp/iphonestab@2x.webp 2x"
+                            >
+        
+                            <source
+                            type="image/webp"
+                            srcset="
+                                ./webp/iphones@1x.webp 1x,
+                                ./webp/iphones@2x.webp 2x"
+                            alt=""/>
+                            <!-- png-format     -->
+                        
+                            <source 
+                            media="(max-width: 425px)"
+                            srcset="
+                                ./img/iphonestel@1x.png 1x,
+                                ./img/iphonestel@2x.png 2x"
+                            >
+        
+                            <source
+                            media="(max-width: 768px)"
+                            srcset="
+                                ./img/iphonestab@1x.png 1x,
+                                ./img/iphonestab@2x.png 2x"
+                            >
+        
+                            <img
+                            class="easy__img-2"
+                             src="./img/iphone.png" 
+                             srcset="
+                                ./img/iphones@1x.png 1x,
+                                ./img/iphones@2x.png 2x"
+                             alt=""
+                             width="263" height="500">
+                        </picture>                                            
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__text">
+                    <ul class="about__ul">
+                        <li class="about__ul-li">
+                            <img class="about__ul-li-img" src="./img/personal.svg" alt="personal" width="106" height="106">
+                            <h5 class="about__ul-li-h5">Personal Finances</h5>
+                            <p class="about__ul-li-p">Consolidate financial data from multiple sources and categorize transactions up to 2 years of history. Analyze reports to reconcile activities in your account. </p>
+                        </li>
+                        <li class="about__ul-li">
+                            <img class="about__ul-li-img" src="./img/banking.svg" alt="banking" width="106" height="106">
+                            <h5 class="about__ul-li-h5">Banking & Coverage</h5>
+                            <p class="about__ul-li-p">With our platform, you can speed up account onboarding and support ongoing payments for checking, savings, credit card, and brokerage accounts.</p>
+                        </li>
+                        <li class="about__ul-li">
+                            <img class="about__ul-li-img" src="./img/consumer.svg" alt="consumer" width="106" height="106">
+                            <h5 class="about__ul-li-h5">Consumer Payments</h5>
+                            <p class="about__ul-li-p">It's easier to set up secure bank payments with us through a flow designed with the user experience in mind. Customers could instantly authenticate their account.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="about__info">
+                    <h5 class="about__info-h5">Ready to start?</h5>
+                    <div class="about__btn">
+                        <input class="about__btn-email" type="email" placeholder="Eneter email address">
+                        <input class="about__btn-button" type="button" value="Schedule a Demo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <img src="./img/payapi.svg" alt="payapi" width="135" height="38">
+            <nav class="footer__nav">
+                <ul class="footrer__nav-ul">
+                    <li class="footer__nav-li">
+                        <a class="footer__nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="footer__nav-li">
+                        <a class="footer__nav-link" href="#">About</a>
+                    </li>
+                    <li class="footer__nav-li">
+                        <a class="footer__nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="footer__nav-li footer__nav-li-img">
+                        <a class="footer__nav-link-img" href="#"><img class="footer__nav-img" src="./img/facebook.svg" alt="" width="24" height="24"></a>
+                        <a class="footer__nav-link-img" href="#"><img class="footer__nav-img" src="./img/twitter.svg" alt="" width="24" height="24"></a>
+                        <a class="footer__nav-link-img" href="#"><img class="footer__nav-img" src="./img/in.svg" alt="" width="24" height="24"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
